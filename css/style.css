@@ -275,3 +275,11 @@
     background: var(--dark);
     border-color: var(--primary);
 }
+
+/*-------------- additional style */
+
+/*------ statistics page */
+
+.btn-modif-stats:hover{
+    background-color: #86e4fe;
+}
