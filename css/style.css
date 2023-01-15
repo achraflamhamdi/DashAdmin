@@ -80,6 +80,10 @@
 }
 
 .content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
     margin-left: 250px;
     min-height: 100vh;
     background: #FFFFFF;
