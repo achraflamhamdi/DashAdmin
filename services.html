@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Administration</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    .btn-modify {
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+            background-color: #3F8293;
+            color: white;
+        }
+</style>
+
+<body>
+        <div class="container-xxl position-relative bg-white d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-light navbar-light">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="mb-0">
+                        <img src="img/logo_HR_Redaction.png" alt="" class="img-fluid" style="width: 170px;">
+                        <p class="float-end mt-0" style="font-size: 13px; color: #3F8293;">Espace de travail</p>
+                    </h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <img class="rounded-circle" src="img/logo_HR_Redaction.png" alt="" style="width: 40px; height: 40px;">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">HR Rédaction</h6>
+                        <span>Admin</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="index.html" class="nav-item nav-link"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                   
+                  <a href="services.html" class="nav-item nav-link active"><i class="fa fa-th me-2"></i>Services</a>
+                  <a href="articles.html" class="nav-item nav-link"><i class="fa fa-poll me-2"></i>Articles</a>
+               
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0" style="background-color: #3F8293;color:white;">
+                    <i class="fa fa-bars"></i>
+                </a>
+              
+                <div class="navbar-nav align-items-center ms-auto">
+                    <div class="nav-item dropdown">
+                        
+                        <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">     
+                        </div>
+                    </div>
+                    
+                    <!--profile-->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="img/logo_HR_Redaction.png" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex">HR Rédaction</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
+                            <a href="#" class="dropdown-item">Déconnexion</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+
+            <!-- Sale & Revenue Start -->
+            <div class="container-fluid pt-4 px-4">
+               
+                 <!-- Start services section -->
+      
+ <section id="values" class="values">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title" data-aos="fade-up">
+     <h3>HR Rédaction Services</h3><br>
+    </div>
+    <div class="row">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="box">
+          <img src="assets/img/education.svg" class="img-fluid" alt="">
+          <h3>Rédaction des thèses & de mémoires de fin d'études</h3>
+          <p>Optez pour une rédaction de vos projets de fin d’études avec un style académique, conforme aux 
+            normes internationales. Avant de commencer la rédaction de votre PFE, ou votre rapport de stage, nous organisons 
+            des entretiens
+            nous permettant de comprendre votre demande, de tracer vos objectifs, puis nous commençons la rédaction</p>
+            <form action="#" method="post" id="formM" class="d-inline">
+                <div class="form-group">
+                <textarea type="text" class="form-control" id="exampleInputEmail1" placeholder="Votre service.." name="service1"></textarea>
+                </div>
+                <br>
+                <div class="form-group" >
+                <button class="btn btn-primary btn-modify" type="submit">Confirmer</button>
+                </div>
+            </form>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+        <div class="box">
+          <img src="assets/img/tasks.svg" class="img-fluid" alt="">
+          <h3>Correction Orthographe & Syntaxe</h3>
+          <p>Un document,qu'il soit PFE, article de blog, etc, est un écrit que l’on garde toute la vie.
+             Confiez-nous la correction de votre projet et bénéficier d’un rendu parfait</p>
+             <br><br><br><br><br><br>
+           <form action="#" method="post" id="formM" class="d-inline">
+                <div class="form-group">
+                <textarea type="text" class="form-control" id="exampleInputEmail1" placeholder="Votre service.." name="service1"></textarea>
+                </div>
+                <br>
+                <div class="form-group" >
+                <button class="btn btn-primary btn-modify" type="submit">Confirmer</button>
+                </div>
+            </form>
+        </div>
+      </div>
+
+  
+      <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+        <div class="box">
+          <img src="assets/img/presentation.svg" class="img-fluid" alt="">
+          <h3>Préparation à la soutenance</h3>
+          <p>Faisons une rencontre afin de vous préparer aux mieux à votre soutenance.
+             Travaillons ensemble votre discours ainsi que votre façon de vous exprimer le jour de votre soutenance</p><br><br><br><br><br>
+         <form action="#" method="post" id="formM" class="d-inline">
+                <div class="form-group">
+                <textarea type="text" class="form-control" id="exampleInputEmail1" placeholder="Votre service.." name="service1"></textarea>
+                </div>
+                <br>
+                <div class="form-group" >
+                <button class="btn btn-primary btn-modify" type="submit">Confirmer</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+    <br><br>
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="800">
+          <div class="box">
+            <img src="assets/img/articles.svg" class="img-fluid" alt="">
+            <h3>Rédaction des articles</h3>
+            <p>Si vous souhaitez que votre site Web représente de manière professionnelle et précise votre entreprise, 
+              il est essentiel de trouver un rédacteur expérimenté qui saura créer des articles de blog originaux 
+              et de qualité tout en étant attentif à vos envies</p>
+              <br><br><br><br>
+            <form action="#" method="post" id="formM" class="d-inline">
+                <div class="form-group">
+                <textarea type="text" class="form-control" id="exampleInputEmail1" placeholder="Votre service.." name="service1"></textarea>
+                </div>
+                <br>
+                <div class="form-group" >
+                <button class="btn btn-primary btn-modify" type="submit">Confirmer</button>
+                </div>
+            </form>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="1000">
+          <div class="box">
+            <img src="assets/img/coaching.svg" class="img-fluid" alt="">
+            <h3>Coaching Personnalisé</h3>
+            <p>Notre coaching est planifié selon vos besoins, sur une ou plusieurs séances. Nous travaillons ensemble
+               la thématique de la recherche, le plan de votre mémoire ainsi que la cohérence des idées allant du titre à la conclusion. Notre travail est de vous accompagner pour 
+              trouver les meilleurs ressources, voire la méthodologie la plus adaptée pour la réalisation de votre projet 
+              de fin d’études</p>
+              <form action="#" method="post" id="formM" class="d-inline">
+                <div class="form-group">
+                <textarea type="text" class="form-control" id="exampleInputEmail1" placeholder="Votre service.." name="service1"></textarea>
+                </div>
+                <br>
+                <div class="form-group" >
+                <button class="btn btn-primary btn-modify" type="submit">Confirmer</button>
+                </div>
+            </form>
+          </div>
+        </div>
+ 
+        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="1200">
+          <div class="box">
+            <img src="assets/img/content-creator.svg" class="img-fluid" alt="">
+            <h3>Rédaction Contenu Web</h3>
+            <p>Si vous souhaitez que votre site Web représente de manière professionnelle et 
+              précise votre entreprise, il est essentiel de trouver un rédacteur expérimenté qui 
+              saura créer des articles et des posts originaux et de qualité tout au long avec vos besoins</p>
+              <br><br><br><br>
+              <form action="#" method="post" id="formM" class="d-inline">
+                <div class="form-group">
+                <textarea type="text" class="form-control" id="exampleInputEmail1" placeholder="Votre service.." name="service1"></textarea>
+                </div>
+                <br>
+                <div class="form-group" >
+                <button class="btn btn-primary btn-modify" type="submit">Confirmer</button>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+      </div>
+    </section>
+
+            </div>
+            <!-- services -->
+       
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top" style="background-color: #3F8293;"><i class="bi bi-arrow-up" style="color:white;"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</body>
+</html>
